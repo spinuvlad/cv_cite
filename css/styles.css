@@ -494,7 +494,12 @@ table tr {
   }
 
   .content .general-info {
+    width: calc(100% - 10px);
+  }
+
+  .content .general-info {
     margin-bottom: 10px;
+    font-size: 1rem;
   }
 
   .content .general-info-content h2 {
@@ -553,13 +558,21 @@ table tr {
     margin-right: 5px;
   }
 
+  .right-block .right-compartiment {
+    width: calc(33.33333% - 10px);
+  }
+
   .right-block .right-block-content {
     margin-left: 5px;
     margin-right: 5px;
   }
 
   .right-block .right-block-content {
-    font-size: 1rem;
+    width: calc(66.66667% - 10px);
+  }
+
+  .right-block .right-block-content {
+    font-size: 0.9rem;
   }
 
   .right-hobby .right-hobby-elems {
